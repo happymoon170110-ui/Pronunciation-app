@@ -12,9 +12,9 @@
 
 * 🌐 **Ứng dụng Trực tuyến (Web App):** [AI Pronunciation Coach Live](https://ai-pronunciation-coach-1.ai.studio)
 * 📄 **Báo cáo Nghiên cứu Đầy đủ:** [Google Docs Paper](https://docs.google.com/document/d/13C2cDjt97nKfiUpA4NZNeaOwAfjWiCY-iIAVs6xPHsI/edit?tab=t.0)
-* 🚀 **API Server (Google Colab):** [](https://www.google.com/search?q=%5Bhttps%3A%2F%2Fcolab.research.google.com%2Fdrive%2F1a4C0yXKm2rUPm4Eol4fYIfiFr0EgZ5vO%3Fusp%3Dsharing%5D%28https%3A%2F%2Fcolab.research.google.com%2Fdrive%2F1a4C0yXKm2rUPm4Eol4fYIfiFr0EgZ5vO%3Fusp%3Dsharing%29)
-* 🧠 **Train Model 1 - Word Verifier (Colab):** [](https://colab.research.google.com/drive/1B9KyYYVlKAXrahF_-39qpHiwusGbMfOg?usp=sharing)
-* 🎯 **Train Model 2 - Pronunciation Scorer (Colab):** [](https://colab.research.google.com/drive/10hVWjmp2OpwF4sEcTzONqCs-F5CZpyTJ?usp=sharing)
+* 🚀 **API Server (Google Colab):** [Google Colab](https://www.google.com/search?q=%5Bhttps%3A%2F%2Fcolab.research.google.com%2Fdrive%2F1a4C0yXKm2rUPm4Eol4fYIfiFr0EgZ5vO%3Fusp%3Dsharing%5D%28https%3A%2F%2Fcolab.research.google.com%2Fdrive%2F1a4C0yXKm2rUPm4Eol4fYIfiFr0EgZ5vO%3Fusp%3Dsharing%29)
+* 🧠 **Train Model 1 - Word Verifier (Colab):** [Google Colab](https://colab.research.google.com/drive/1B9KyYYVlKAXrahF_-39qpHiwusGbMfOg?usp=sharing)
+* 🎯 **Train Model 2 - Pronunciation Scorer (Colab):** [Google Colab](https://colab.research.google.com/drive/10hVWjmp2OpwF4sEcTzONqCs-F5CZpyTJ?usp=sharing)
 
 ---
 
