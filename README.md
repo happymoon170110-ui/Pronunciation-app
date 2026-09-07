@@ -36,8 +36,24 @@ Dự án đề xuất giải pháp đa phương thức (*Multimodal Feedback*):
 3. **Kiến trúc ML 2 giai đoạn (Two-Stage Pipeline):**
 * *Giai đoạn 1 (Word Verifier - Gatekeeper):* Mô hình SVC (RBF Kernel) phân loại 4 lớp từ để phát hiện trường hợp phát âm sai từ hoặc khẩu hình lệch hướng trước khi cho phép chấm điểm.
 * *Giai đoạn 2 (Pronunciation Scorer):* Hệ thống 4 mô hình SVR độc lập chấm điểm độ tương đồng khẩu hình trên thang 60–100.
+---
+## 🛠 Hướng dẫn Triển khai và Cài đặt Hệ thống
 
+Để vận hành hệ thống và chạy thử nghiệm, vui lòng thực hiện theo các bước sau:
 
+### 1. Tải các mô hình học máy (Pre-trained Models)
+* Truy cập vào thư mục `models/` trên kho lưu trữ này.
+* Tải 2 file mô hình đã huấn luyện xuống máy tính:
+  * `word_verifier.joblib` (Mô hình xác thực khẩu hình)
+  * `svr_model_{TỪ}.joblib` (Các mô hình chấm điểm SVR) - 4 model cho 4 từ
+
+### 2. Cấu hình môi trường và API
+* Tải các file mô hình vừa down ở Bước 1 lên **Google Drive** của bạn (hoặc server lưu trữ cá nhân).
+* Cấu hình và kết nối mã nguồn với các Native Web API của trình duyệt (`Web Speech API`, `MediaPipe Face Mesh API`) theo link **API Server (Google Colab):** [Google Colab](https://www.google.com/search?q=%5Bhttps%3A%2F%2Fcolab.research.google.com%2Fdrive%2F1a4C0yXKm2rUPm4Eol4fYIfiFr0EgZ5vO%3Fusp%3Dsharing%5D%28https%3A%2F%2Fcolab.research.google.com%2Fdrive%2F1a4C0yXKm2rUPm4Eol4fYIfiFr0EgZ5vO%3Fusp%3Dsharing%29)
+
+### 3. Khởi chạy ứng dụng
+* Mở trình duyệt web theo link [AI Pronunciation Coach Live](https://ai-pronunciation-coach-1.ai.studio)
+* Cấp quyền truy cập **Webcam** và **Microphone** khi hệ thống yêu cầu để bắt đầu luyện tập.
 
 ---
 
@@ -191,20 +207,3 @@ pip install numpy==1.24.3 \
 * **Đơn vị công tác:** Trường THPT Chuyên Trần Đại Nghĩa, Sở Giáo dục và Đào tạo Thành phố Hồ Chí Minh.
 
 ---
-
-## 📝 8. Trích Dẫn (Citation)
-
-Nếu bạn sử dụng mã nguồn, kiến trúc pipeline hoặc dữ liệu nghiên cứu này, vui lòng trích dẫn theo định dạng:
-
-```bibtex
-@article{NguyenTran2026LipSyncAI,
-  author    = {Nguyễn Đăng Minh and Nguyễn Đỗ Lan Nhi and Trần Lê Hùng Phi},
-  title     = {Dùng Computer Vision và AI Phân Tích Khẩu Hình Miệng Để Cải Thiện Phát Âm Cho Người Việt},
-  journal   = {Cuộc thi Học sinh Nghiên cứu Khoa học - Năm học 2026-2027},
-  school    = {Trường THPT Chuyên Trần Đại Nghĩa},
-  address   = {Thành phố Hồ Chí Minh, Việt Nam},
-  year      = {2026},
-  month     = {Tháng 9}
-}
-
-```
