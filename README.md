@@ -1,4 +1,4 @@
-# 🎙️ LipSync-AI: Phân Tích Khẩu Hình Miệng Đột Phá Bằng Computer Vision & AI
+#  Phân Tích Khẩu Hình Miệng Đột Phá Bằng Computer Vision & AI
 
 ---
 
