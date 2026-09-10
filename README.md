@@ -189,7 +189,7 @@ pip install numpy==1.24.3 \
 
 | Tiêu chí kỹ thuật | Kết quả đo lường | Ghi chú & Đánh giá |
 | --- | --- | --- |
-| **Độ trễ suy luận (Latency)** | **12 – 22 ms** | Xử lý hoàn toàn tại Client bằng WebGL, không phụ thuộc đường truyền mạng. |
+| **Độ trễ suy luận (Latency)** | **<1s** | Xử lý hoàn toàn tại Client bằng WebGL, không phụ thuộc đường truyền mạng. |
 | **Tốc độ khung hình (FPS)** | **55 – 60 FPS** | Đảm bảo độ mượt mà trên các thiết bị laptop/smartphone phổ thông. |
 | **Dung lượng tải trang** | **< 8.5 MB** | Tối ưu hóa nhờ tải mô hình tĩnh và CDN WebAssembly. |
 | **Tỷ lệ nhận diện Landmark** | **99.1%** | Nhận diện chính xác và ổn định trong điều kiện ánh sáng tiêu chuẩn. |
